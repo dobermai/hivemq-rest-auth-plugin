@@ -1,0 +1,15 @@
+== HiveMQ Example REST Authentication Plugin
+
+This repository shows the example usage of a HTTP Client in the link:www.hivemq.com/[HiveMQ] plugin system. This POC does a HTTP POST to a REST API and uses the response to authenticate the client.
+
+
+=== Huh? How do I use this?
+
+You can find all relevant information to get started in the link:www.hivemq.com/docs/plugins/latest/[HiveMQ plugin documentation].
+
+Don't worry, it's **REALLY** easy :-)
+
+
+=== Is this production ready?
+
+**NO!** This is just a proof of concept and shows how to use external libraries + external services to integrate with HiveMQ. Please use proper caching when doing such things in production, otherwise you'll probably make your users and your operations guys unhappy. And make sure to read the link:www.hivemq.com/docs/plugins/latest/[HiveMQ plugin documentation].
